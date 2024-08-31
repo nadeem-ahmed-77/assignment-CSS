@@ -1,0 +1,262 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.container {
+    /* width: 80%; Ya aap fixed width de sakte hain, jaise 1200px */
+    max-width: 1200px;
+    margin: 0 auto; /* Is se container center align hoga */
+}
+header{
+    background-color: #f8f5f5;
+    padding:14px;
+    text-align: center;
+}
+
+.apple{
+    font-size: 1rem;
+
+}
+header a{
+    text-decoration: none;
+    color: rgb(113, 113, 113);
+
+}
+
+header nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 0.7rem;
+    
+}
+header nav ul :hover {
+    color: black;
+}
+header nav ul {
+    margin: 0;
+    
+}
+
+.sub-nav    {
+    padding: 14px;
+    text-align: center;
+    color: rgb(113, 113, 113);
+    
+}
+
+.sub-nav  a  {
+    text-decoration:none; 
+    color: blue;
+
+}
+.hero{
+    background-color: #f8f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 650px;
+}
+
+.hero img{
+     width: 100%;
+}
+
+.hero-mac{
+    background-image: url(pictures/hero_macbook_air_m3__cp4t7pn8zqaa_mediumtall_2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    background-color: #f8f5f5;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    height: 650px;
+    margin-top: 15px;
+  
+}
+
+.hero-mac h1 {
+    font-size: 2.5rem;
+    border: none;
+    margin-bottom: 10px;
+   
+}
+.hero-mac button{
+    background-color: blue;
+    color: white;
+    padding: 15px 40px;
+    border-radius:25px;
+    margin-top: 20px;
+    border: none;
+    font-size: 1.2rem;
+    border: 2px blue solid;
+}
+#btn{
+    background-color: white;
+    color: blue;
+}
+.heroimg{
+    /* border: 2px solid green;  */
+    height: 400px; 
+    width: 1100px;
+
+}
+.heroimg img{
+    /* border: 2px solid rgb(128, 0, 111);  */
+    height: 400px; 
+    width: 100%;
+
+}
+
+.iPhone{
+    background-image: url(pictures/hero_iphone_family_a__c7v3mvx3jv42_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    height:650px;
+    /* border: 2px solid orange; */
+
+}
+
+.iPhone h1, h2{
+    color: white;
+    
+   
+}
+.iphoneimg{
+    margin-top: 20px ;
+    width: 100%;
+}
+
+.six-box{
+    width: 100%;
+    height:auto;
+    /* background-color: green ; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    
+}
+.box{
+    /* border: 2px solid black; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 48%;
+    height:500px;
+    margin: 7px;
+    padding-top: 20px;
+    text-align: center;
+}
+.six-box h1 {
+}
+.six-box p {
+}
+.btn1{
+    background-color: blue;
+    color: white;
+    padding: 10px 40px;
+    border-radius:25px;
+    margin-top: 10px;
+    border: none;
+    font-size: 1rem;
+    border: 2px blue solid;
+
+}
+.btn2{
+    background-color: blue;
+    color: white;
+    padding: 10px 40px;
+    border-radius:25px;
+    margin-top: 10px;
+    border: none;
+    font-size: 1rem;
+    border: 2px blue solid;
+}
+.btn1:hover, .btn2:hover, button:hover, #btn:hover {
+    background-color: gray;
+}
+.box1{
+    color: white;
+    background-image: url(pictures/promo_ipadpro__ch217v9v7no2_medium.jpg);
+}
+.box2{
+    background-image: url(pictures/promo_ai__couihqxznyvm_medium.jpg);
+}
+.box3{
+    padding-top: 350px;
+    background-image: url(pictures/promo_apple_vision_pro__f4v4zp0sum2y_medium.jpg);
+}
+.box4{
+    color: white;
+    background-image: url(pictures/promo_apple_watch_series_9_order__b3u85rm9zf6u_medium.jpg);
+}
+.box5{
+    background-image: url(pictures/promo_apple_card__5cm7draujpey_medium.jpg);
+}
+.box6{
+    background-image: url(pictures/promo_iphone_tradein__bugw15ka691e_medium.jpg);
+}
+
+.footer{
+    background-color: #f8f5f5;
+    margin-top: 15px;
+    /* padding-top: 20px; */
+    display: flex;
+    justify-content: space-evenly;
+    font-size: .6rem;
+}
+.footer-box{
+    /* border: 2px solid black ; */
+}
+.footer-box ul{
+    padding: 0 0 0 0 ;
+    padding-top: 20px;
+    
+}
+.footer-box ul li{
+    list-style: none;
+    line-height: 20px;
+
+}
+.footer-box ul a{
+    text-decoration: none ;
+    color: rgb(113, 113, 113)
+
+}
+.footer-box .heading a{
+    color:black;
+    font-weight: bolder;
+
+}
+.last-footer{
+    background-color: #f8f5f5;
+    /* border: 2px solid black; */
+    
+}
+.last-footer ul {
+    padding: 0 0 0 0 ;
+    padding-left: 50px ;
+    margin-left:  ;
+    
+    
+}
+
+.last-footer ul li{
+    font-size: 0.6rem;
+    color: rgb(113, 113, 113);
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    /* border: 1px solid black; */
+
+}

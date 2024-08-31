@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Layout</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* background-color: aquamarine; */
+            padding: 40px;
+            
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+            /* background-color: rgb(214, 213, 218); */
+            border-radius: 15px ;
+            padding: 40px;
+            gap: 40px;
+
+        }
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 0 10px;
+            background-color: rgb(71, 15, 1);
+        } 
+            .image-container:hover {
+            transform: scale(1.1);
+        
+        }
+        img {
+            max-width: 300px;
+            max-height: 200px;
+        }
+        .details {
+            display: flex;
+            justify-content: space-between            ;
+            width: 250px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1> FLAT UI COLORS 2 </h1>
+    <div class="container">
+        <div class="row">
+            <div class="image-container">
+              <a href="./pages/1.html">
+                <img src= "./assets/Capture(1)(1).png" alt="Image 1"> 
+               </a> 
+                <div class="details">
+                    <span>Aussie pallete</span>
+                    <span>AU</span>
+                </div>
+            </div>
+            <div class="image-container">
+              <a href="./pages/1.html">
+                <img src= "./assets/Capture(1)(1).png" alt="Image 1"> 
+               </a> 
+
+                <div class="details">
+                    <span>Canadian Palette</span>
+                    <span>CA</span>
+                </div>
+            </div>
+            <div class="image-container">
+              <a href="./pages/1.html">
+                <img src= "./assets/Capture(1)(1).png" alt="Image 1"> 
+               </a> 
+
+                <div class="details">
+                    <span>British Pallete</span>
+                    <span>GB</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="image-container">
+              <a href="./pages/1.html">
+                <img src= "./assets/Capture(1)(1).png" alt="Image 1"> 
+               </a> 
+               <div class="details">
+                    <span>Chinese Pallete</span>
+                    <span>AV</span>
+                </div>
+            </div>
+            <div class="image-container">
+              <a href="./pages/1.html">
+                <img src= "./assets/Capture(1)(1).png" alt="Image 1"> 
+               </a> 
+
+                <div class="details">
+                    <span>Amerian Pallete</span>
+                    <span>US</span>
+                </div>
+            </div>
+            <div class="image-container">
+              <a href="./pages/1.html">
+                <img src= "./assets/Capture(1)(1).png" alt="Image 1"> 
+               </a> 
+
+                <div class="details">
+                    <span>French Pallete</span>
+                    <span>FB</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

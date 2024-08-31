@@ -1,0 +1,187 @@
+/* Media Query for Tablets (768px and below) */
+@media (max-width: 768px) {
+     
+    .logo img {
+        width: 300px;
+        height: auto;
+        padding: 20px;
+    }
+    .main-nav {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-around; */
+      }
+    
+    
+    #navlist {
+        display: flex;
+        /* align-items: center; */
+        color:white;
+        box-sizing: border box;
+        list-style: none;
+        font-family: Arial;
+        /* justify-content: space-around */
+        gap: 10px;
+    }
+    
+    .list ul {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        padding: 0;
+    }
+
+    
+    .carousel-inner img {
+        
+        height: 50%;
+        object-fit: cover;
+    }
+
+    .main-con p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    
+    .main-card, .main-card1, .main-card2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    .card, .card1, .card2 {
+        
+        margin-bottom: 20px;
+    }
+
+    .pic-add .mix-1 {
+        /* flex-wrap: wrap;  */
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pic-add #img-add {
+        width: 400px;
+        margin-bottom: 15px;
+    }
+    
+        
+}
+/* Media Query for Mobile Devices (480px and below) */
+@media (max-width: 480px) {
+    body{
+        display: flex;
+        align-items: center;
+    }
+    .logo img {
+        width: 200px;
+        height: auto;
+        padding: 10px;
+    }
+    .main-nav {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-around; */
+      }
+    
+    
+    #navlist {
+        display: flex;
+        /* align-items: center; */
+        color:white;
+        box-sizing: border box;
+        list-style: none;
+        font-family: Arial;
+        /* justify-content: space-around */
+        gap: 10px;
+    }
+    #btn1{
+        
+        border: 2px solid white;
+        background-color: black;
+        padding: 5px;
+        border-radius: 25px;
+    }
+    #btn2{
+        /* border: 10px; */
+        background-color: red;
+        padding: 10px;
+        border-radius: 25px;
+
+    }
+  
+    .carousel-inner img {
+        /* width: 100%;
+        height: auto;
+        object-fit: cover; */
+    }
+
+    .main-con p {
+        font-size: 1rem;
+    }
+
+    .card button, .card1 button, .card2 button {
+        font-size: 0.8rem;
+        padding: 8px 10px;
+    }
+    
+
+    .pic-add #add-btn p {
+        font-size: 0.9rem;
+    }
+
+    .pic-add #img-add img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .main-card, .main-card1, .main-card2 {
+        display: flex;
+        flex-wrap: wrap; 
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        /* width: ;
+        display: flex;
+        /* flex-direction: center; */
+        align-items: center;
+        padding: none;
+        margin: none; 
+
+    }
+     .main-con{
+        /* display : flex;
+        justify-content: center;
+        align-items: center; */
+
+    }
+    .add-btn { 
+        width: 300px;
+        
+    }
+    .mix-1{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-add{
+        width: 100%;
+    }
+    .pic-add{
+        align-items: center;
+    }
+    .part-3{
+        
+        align-items: center;
+    }
+    .pic-add{
+        align-items: center;
+
+    }}

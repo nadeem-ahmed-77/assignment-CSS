@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color UI</title>
+    <style>
+        body {
+            /* display: flex; */
+            /* justify-content: center; */
+            /* align-items: center; */
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+        }
+        .row {
+            display: flex;
+            /* flex-direction: row */
+
+        }
+            .color-box {
+            /* position: relative; */
+            width: 250px;
+            height: 180px;
+            display: flex;
+            align-items:end;
+            justify-content:right;
+            color: #fff;
+            font-weight: bold;
+            /* overflow: hidden; */
+        }
+        .color-code {
+            /* position: absolute; */
+            display: flex; 
+            justify-content:right;
+            align-items:flex-end;
+            /* bottom: 10px; */
+            /* font-size: 14px; */
+            /* background: rgba(0, 0, 0, 0.5); */
+            /* padding: 2px 5px; */
+            /* border-radius: 3px; */
+        }
+        .back {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            /* border: ; */
+        }
+
+         .copy-btn {  
+            position:relative;  
+            display: flex ; 
+            justify-content: center; 
+            align-items: center; 
+            bottom: 10px;
+            right: 10px;
+            display: none;
+            background: none;
+            color: #861616;
+            border-color: white;
+            padding: 15px;
+            border-radius: 10px;
+             cursor: pointer;  
+         } 
+        
+        .color-box:hover .copy-btn { 
+         display: block;
+         }
+        
+    </style>
+</head>
+<body>
+        
+        <div class="back"> 
+        <span> <a href="/index.html">back</a></span>
+        <span> Copy Format </span>
+        <span> Sound On</span>
+        </div>
+    <div class="container">
+        <div class="row">
+        <div class="color-box" style="background-color: #f6e58d;">
+            <div class="color-code">BEEKEEPER</div>
+            <div> <button class="copy-btn">Copy</button> <span>
+        </div>
+        <div class="color-box" style="background-color: #ffbe76;">
+            <div class="color-code">SPICED NECTARINE</div>
+            
+        </div>
+        <div class="color-box" style="background-color: #ff7979;">
+            <div class="color-code">PINK GLAMOUR</div>
+            
+        </div>
+        <div class="color-box" style="background-color: #badc58;">
+            <div class="color-code">JUNE BUD</div>
+            
+        </div>
+        <div class="color-box" style="background-color: #dff9fb;">
+            <div class="color-code">COSTAL BREEZE</div>
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="color-box" style="background-color: #f9ca24;">
+            <div class="color-code">BEEKEEPER</div>
+            
+        </div>
+        <div class="color-box" style="background-color: #f0932b;">
+            <div class="color-code">SPICED NECTARINE</div>
+            
+        </div>
+        <div class="color-box" style="background-color: #eb4d4b;">
+            <div class="color-code">PINK GLAMOUR</div>
+            
+        </div>
+        <div class="color-box" style="background-color: #6ab04c;">
+            <div class="color-code">JUNE BUD</div>
+            
+        </div>
+        <div class="color-box" style="background-color: #c7ecee;">
+            <div class="color-code">COSTAL BREEZE</div>
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="color-box" style="background-color: #7ed6df;">
+            <div class="color-code">BEEKEEPER</div>
+            
+        </div>
+        <div class="color-box" style="background-color: #e056fd;">
+            <div class="color-code">SPICED NECTARINE</div>
+            
+        </div>
+        <div class="color-box" style="background-color: #686de0;">
+            <div class="color-code">PINK GLAMOUR</div>
+            
+        </div>
+        <div class="color-box" style="background-color: #30336b;">
+            <div class="color-code">JUNE BUD</div>
+            
+        </div>
+        <div class="color-box" style="background-color: #95afc0;">
+            <div class="color-code">COSTAL BREEZE</div>
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="color-box" style="background-color: #22a6b3;">
+            <div class="color-code">BEEKEEPER</div>
+            
+        </div>
+        <div class="color-box" style="background-color: #be2edd;">
+            <div class="color-code">SPICED NECTARINE</div>
+            
+        </div>
+        <div class="color-box" style="background-color: #4834d4;">
+            <div class="color-code">PINK GLAMOUR</div>
+            
+        </div>
+        <div class="color-box" style="background-color: #130f40;">
+            <div class="color-code">JUNE BUD</div>
+            
+        </div>
+        <div class="color-box" style="background-color: #535c68;">
+            <div class="color-code">COSTAL BREEZE</div>
+            
+        </div>
+    </div>
+</div>
+        
